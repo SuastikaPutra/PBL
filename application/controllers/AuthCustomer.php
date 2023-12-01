@@ -18,7 +18,6 @@ class AuthCustomer extends CI_Controller {
             'js' => 'V_partials/loginRegister/js'
 
         ];
-
         $this->load->view('customer/loginView', $data);
     }
 

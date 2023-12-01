@@ -15,7 +15,6 @@ class Dashboard extends CI_Controller {
         if (empty( $this->session->userdata('admin_name'))){
             redirect('auth/login');
         }
-        
     }
 
     public function admin()
