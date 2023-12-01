@@ -221,7 +221,7 @@ class M_cart extends CI_Model
     //     } else {
     //         return array();
     //     }
-    // }
+
 
     public function getCheckout($id_customer)
     {
